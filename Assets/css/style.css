@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    background-image:url(images/CartoonNetwork.jpg);
+    
+}
+
+.jumbotron-fluid {
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+    color: orangered;
+    background-color: black;
+}
+
+#award {
+    float: left;
+    width:200px;
+    height:112px;
+}
+
+#disney {
+    float: right;
+    width:200px;
+    height:112px;
+}
+
+.start {
+    font-family: 'Chewy', cursive;
+    color: orangered;
+    font-size: 20px;
+}
