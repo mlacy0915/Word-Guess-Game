@@ -10,30 +10,56 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./Assets/css/reset.css">
     <link rel="stylesheet" href="./Assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chewy|Luckiest+Guy&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body style="background-image: url('Assets/images/CartoonNetwork.jpg');">
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="display-4">90s Kids TV</h1>
-            <img id = "award" src = "./Assets/images/giphynickchoiceaward.gif">
-            <img id = "disney" src="./Assets/images/giphydisneychannel.gif">
-            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <img id="award" src="./Assets/images/giphynickchoiceaward.gif" style="size: auto;">
+            <img id="disney" src="./Assets/images/giphydisneychannel.gif">
+            <p class="lead">Word Guess</p>
         </div>
     </div>
 
-    <div>
+    <div class="start">
+        <p>Press Any Key To Start</p>
         <img id="image" src="./Assets/images/giphydownarrows.gif">
-            <p>Press Any Key To Start</p>
+    </div>
+    <div class="card" style="width:auto;">
+        <img src="./Assets/images/giphychuckyfinster.gif" class="card-img-top" alt="...">
+        <div class="card-body">
+            <p class="card-text">Guess The Show _ _ _ _ _ _ _.</p>
+            <div class="card">
+                <div class="card-body">
+                    <table class="table">
+                        <p>Hint: Is it a show or a character?</p>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Wrong Guesses</th>
+                                <td>----</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Guesses Left</th>
+                                <td>-----</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Wins</th>
+                                <td>------</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Losses</th>
+                                <td>--------</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
     </div>
 
-    <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -46,9 +72,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
 </body>
 
 </html>
-
-
-

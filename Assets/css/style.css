@@ -1,7 +1,7 @@
 body {
     background-color: black;
-    background-image:url(images/CartoonNetwork.jpg);
-    
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .jumbotron-fluid {
@@ -27,4 +27,24 @@ body {
     font-family: 'Chewy', cursive;
     color: orangered;
     font-size: 20px;
+    text-align: center;
+}
+
+.card {
+    background-color: black;
+    font-family: 'Chewy', cursive;
+    color: white;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.card-img-top {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.card-text {
+    text-align: center;
 }
